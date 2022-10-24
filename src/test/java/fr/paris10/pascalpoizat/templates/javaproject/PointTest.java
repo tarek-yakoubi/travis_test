@@ -54,4 +54,10 @@ public class PointTest {
         Point p = new Point(3, 4);
         assertEquals(p.toString(), "(3, 4)");
     }
+
+    @org.testng.annotations.Test
+    public void testToString2() throws Exception {
+        Point p = new Point(2, 4);
+        assertEquals(p.toString(), "(2, 4)");
+    }
 }
